@@ -25,7 +25,7 @@
 	<option id="Cache">
 		<label>Cache</label>
 		<description>Clears the Cache</description>
-			<action search="walk.files" command="delete" path="$APPDATA\Adobe\Common\Media Cache Files\"/>
-			<action search="walk.files" command="delete" path="$APPDATA\Adobe\Common\Media Cache\"/>
+			<action search="walk.all" command="delete" path="$APPDATA\Adobe\Common\Media Cache Files\"/>
+			<action search="walk.all" command="delete" path="$APPDATA\Adobe\Common\Media Cache\"/>
 	</option>
 </cleaner>
